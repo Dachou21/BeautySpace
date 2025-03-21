@@ -4,16 +4,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Beauty Space</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        img{
+            width: 50%;
+        }
+    </style>
+    
 </head>
 <body>
     <div>
         <header>
             <h1>Bem vindo(a) á vitrine da Beauty Space</h1>
-            <img src="./imagem BS/Beauty Space image.png" alt="Logo da Beauty Space">
+            <div><img src="./imagem BS/Beauty Space image.png" alt="Logo da Beauty Space"></div>
             <nav>
                 <ul>
-                    <li><a href="https://www.instagram.com/ac_beautyspacecb/"target=blank>Veja-nos no Instagram</a></li>
-                    <li><a href="https://www.instagram.com/oboticario/"target=blank>O Boticário Oficial</a></li>
+                   <div> <li><a href="https://www.instagram.com/ac_beautyspacecb/"target=blank>Veja-nos no Instagram</a></li></div>
+                    <div><li><a href="https://www.instagram.com/oboticario/"target=blank>O Boticário Oficial</a></li></div>
+                    <div><li><a href="https://minhaloja.grupoboticario.com.br/loja-acbeatyspace-2609"target=blank>Minha Loja Digital</a></li></div>
+                    <div><li><a href="https://minhaloja.ouiparis.com/loja-acbeatyspace-2609?page=1"target=blank>BeautySpace O.U.I Paris</a></li></div>
+                    <div><li><a href="https://minhaloja.quemdisseberenice.com.br/loja-acbeatyspace-2609?page=1"target=blank>BeautySpace-Quem disse Berenice</a></li></div>
+                    <div><li><a href="https://minhaloja.eudora.com.br/loja-ac_beautyspacecb-2024?page=1"target=blank>BeautySpace-Eudora</a></li></div>
                 </ul>
             </nav>
         </header>
@@ -25,9 +35,8 @@
         <form action="">
             <label for="name">O que você procura?</label>
             <input type="text" name="produto" id="produto">
-            <label for="nome">Deixe seu contato:</label>
-            <input type="number" name="number" id="number">
-            <input type="submit" value="Enviar">
+            <label for="nome">Entre em contato:</label>
+            <input type="button" value=+551898175-1526>
         </form>
     </div>
 </body>
