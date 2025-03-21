@@ -1,8 +1,19 @@
 h1{
-    color: blueviolet;
+    color: rgb(213, 175, 248);
 }
 
 body{
     font-style: italic;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+div{
+    height: 100%vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body{
+    background-color: rgb(111, 160, 187);
+}
+
