@@ -1,0 +1,34 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beauty Space</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <header>
+            <h1>Bem vindo(a) á vitrine da Beauty Space</h1>
+            <img src="./imagem BS/Beauty Space image.png" alt="Logo da Beauty Space">
+            <nav>
+                <ul>
+                    <li><a href="https://www.instagram.com/ac_beautyspacecb/"target=blank>Veja-nos no Instagram</a></li>
+                    <li><a href="https://www.instagram.com/oboticario/"target=blank>O Boticário Oficial</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <div>
+        <img src="https://apaecuritiba.org.br/wp-content/uploads/2024/03/close-up-collection-make-up-beauty-products-scaled.jpg" alt="Imagem de produtos de beleza">
+    </div>
+    <div>
+        <form action="">
+            <label for="name">O que você procura?</label>
+            <input type="text" name="produto" id="produto">
+            <label for="nome">Deixe seu contato:</label>
+            <input type="number" name="number" id="number">
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+</body>
+</html>
